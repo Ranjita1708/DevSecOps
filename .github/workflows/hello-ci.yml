@@ -5,5 +5,5 @@ jobs:
 say-hello:
 runs-on: ubuntu-latest
      steps:
-- name: Run a greeting
-run: echo "The CI pipeline has successfully started!";
+       - name: Run a greeting
+         run: echo "The CI pipeline has successfully started!";
